@@ -435,7 +435,7 @@ local now2
 
 				connection = Players.PlayerAdded:Connect(function(player)
 					if tbl7.Name and player.Name == tbl7.Name then
-						v19:MakeNotification({ Name = "NeoLose", Content = player.Name .. " has Joined the server", Image = "crown", Time = 4 })
+						v19:MakeNotification({ Name = "The worst V2.5", Content = player.Name .. " has Joined the server", Image = "crown", Time = 4 })
 					end
 				end)
 
@@ -8504,7 +8504,7 @@ local now2
 					n26 = math.floor(Stats_2.Network.ServerStatsItem["Data Ping"]:GetValue())
 				end)
 
-				textLabel.Text = string.format("NeoLose | %s | %d FPS | %d MS", localPlayer3.Name, v33, n26)
+				textLabel.Text = string.format("The Worst V2.5 | %s | %d FPS | %d MS", localPlayer3.Name, v33, n26)
 				frame2.Size = UDim2.new(0, textLabel.TextBounds.X + 20, 0, 25)
 			end
 		end)
