@@ -339,7 +339,7 @@ local now2
 	local tbl6
 
 	local v20 = v19:MakeWindow({
-		Name = "The worst 2.5 VIP",
+		Name = "The worst V2.5 VIP",
 		SubNameSide = "Center",
 		ShowIcon = true,
 		Icon = "crown",
@@ -443,7 +443,7 @@ local now2
 					if tbl7.Name and player.Name == tbl7.Name then
 						if not workspace:FindFirstChild("BlackHoleKick") then
 							v19:MakeNotification({
-								Name = "NeoLose",
+								Name ="The worst V2.5",
 								Content = player.Name .. " has Left the server",
 								Image = "crown",
 								Time = 4,
