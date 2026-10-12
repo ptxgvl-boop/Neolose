@@ -6057,7 +6057,7 @@ local now2
 							fn32()
 
 							v19:MakeNotification({
-								Name = "NeoLose",
+								Name = "The worst V2.5",
 								Content = arg2.Name .. " is using Packet Lag! Size: " .. n25 .. " MB",
 								Image = "crown",
 								Time = 4,
@@ -6235,7 +6235,7 @@ local now2
 						end
 
 						v19:MakeNotification({
-							Name = "NeoLose",
+							Name = "The worst V2.5",
 							Content = v38.DisplayName .. " (" .. v38.Name .. ") has been Kicked!",
 							Image = "crown",
 							Time = 4,
