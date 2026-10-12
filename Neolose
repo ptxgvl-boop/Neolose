@@ -331,7 +331,7 @@ local now2
 					task.spawn(_G.UpdateAllHighlights)
 				end
 
-				v19:MakeNotification({ Name = The worst 2.5 VIP", Content = "Loaded: " .. loaded, Image = "hand", Time = 2 })
+				v19:MakeNotification({ Name = Neolose", Content = "Loaded: " .. loaded, Image = "hand", Time = 2 })
 			end
 		end
 	end
