@@ -339,8 +339,8 @@ local now2
 	local tbl6
 
 	local v20 = v19:MakeWindow({
-		Name = "The worst V2.5 VIP",
-		SubNameSide = "Center",
+		Name = "The worst",
+		SubNameSide = "V2.5 personal",
 		ShowIcon = true,
 		Icon = "crown",
 		IntroEnabled = false,
