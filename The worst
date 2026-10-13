@@ -331,7 +331,7 @@ local now2
 					task.spawn(_G.UpdateAllHighlights)
 				end
 
-				v19:MakeNotification({ Name = "The worst", Content = "Loaded: " .. loaded, Image = "hand", Time = 2 })
+				v19:MakeNotification({ Name = "The worst PTX is Owner", Content = "Loaded: " .. loaded, Image = "hand", Time = 2 })
 			end
 		end
 	end
@@ -339,8 +339,8 @@ local now2
 	local tbl6
 
 	local v20 = v19:MakeWindow({
-		Name = "The worst",
-		SubNameSide = "V2.5 personal",
+		Name = "The worst V2.5 <Limited>",
+		SubNameSide = "V2.5 PTX is owner",
 		ShowIcon = true,
 		Icon = "crown",
 		IntroEnabled = false,
